@@ -1,0 +1,94 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color:azure;
+}
+
+#hangman{
+  margin-top: 80px;
+  padding-left: 50px;
+}
+
+#hm1{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: thick;
+  margin-left: 20px;
+  visibility:hidden;
+}
+
+#hm2{
+  width: 10px;
+  height: 200px;
+  border-right: thick solid black;
+  margin-left:63px;
+  visibility:hidden;
+}
+
+#hm3{
+  margin-top: -150px;
+  width: 100px;
+  height: 50px;
+  border-bottom: thick solid black;
+  transform:
+    translateX(4px)
+    rotate(140deg);
+  visibility:hidden;
+}
+
+#hm4{
+  margin-top: -92px;
+  width: 100px;
+  height: 50px;
+  border-bottom: thick solid black;
+  transform:
+    translateX(80px)
+    rotate(40deg);
+  visibility:hidden;
+}
+
+#hm5{
+  margin-top: 175px;
+  width: 150px;
+  height: 70px;
+  border-bottom: thick solid black;
+  transform:
+    translateX(-7px)
+    rotate(120deg);
+  visibility:hidden;
+}
+
+#hm6{
+  margin-top: -110px;
+  width: 150px;
+  height: 70px;
+  border-bottom: thick solid black;
+  transform:
+    translateX(69px)
+    rotate(60deg);
+  visibility:hidden;
+}
+
+#hm7{
+  width: 200px;
+  height: 500px;
+  margin-top:-460px;
+  padding-left: 80px;
+  border-top: thick solid black;
+  border-right: thick solid black;
+  visibility:hidden;
+}
+
+#hm8{
+  height: 65px;
+  border-left: thick solid black;
+  margin-top: -500px;
+  margin-left: 70px;
+  visibility:hidden;
+}
+
+#guess{
+  margin-top: 450px;
+  position: relative;
+}

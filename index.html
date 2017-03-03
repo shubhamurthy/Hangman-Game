@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hangman!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <script src="hangman.js">
+  </script>
+  <h1>Hangman!</h1>
+  <p>
+    Instructions: click "Generate word" and then click "Make a guess" to guess a character in the word. If you get too many letters wrong, you lose. But if you figure out the word, you win!
+<br>
+    <i><b>Hint:</b> all words are related to HTML, CSS or JavaScript.</i>
+  </p>
+  <button onclick="generateblanks()">
+    Generate word
+  </button>
+  <p id='wordlength'>
+    
+  </p>
+  <div id='hangman'>
+    <div id='hm1'></div>
+    <div id='hm2'></div>
+    <div id='hm3'></div>
+    <div id='hm4'></div>
+    <div id='hm5'></div>
+    <div id='hm6'></div>
+    <div id='hm7'></div>
+    <div id='hm8'></div>
+  </div>
+  
+
+  <div id='guess'>
+    
+  </div>
+  <button onclick="altogether()">
+    Make a guess
+  </button>
+</body>
+</html>
